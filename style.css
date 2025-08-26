@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+.nav {
+    position: fixed;
+    height: 95px;
+    width: 100%;
+    padding: 0 100px;
+    gap: 30px;
+    display: flex;
+    align-items : center;
+    justify-content: flex-start;
+    z-index: 99;
+}
+.nav img {
+    height: 70px;
+}
+.nav h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+}
+.box {
+    width: 50%;
+    height: 200vh;
+    background: red;
+}
