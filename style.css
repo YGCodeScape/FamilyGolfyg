@@ -113,3 +113,19 @@ video {
     border: 2px solid red;
     z-index: 999;
 }
+
+.text-scroller {
+    background-color: #95c11e;
+    white-space: nowrap;
+}
+.text-scroller h4 {
+    text-transform:uppercase;
+    display: inline-block;
+    font-size: 5rem;
+    font-weight: 800;
+}
+.t-scroller-in-1,
+.t-scroller-in-2 {
+    display: inline-block;
+    white-space: nowrap;
+}
