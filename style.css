@@ -26,14 +26,14 @@ html, body {
     transform: translate(-50%, -50%);
 }
 .cursor-br{
-    width: 340px;
-    height: 340px;
-    background-color: #c3e75e59;
+    width: 300px;
+    height: 300px;
+    background-color: #d3ff5959;
     position: fixed;
     border-radius: 50%;
     pointer-events: none;
     transform: translate(-50%, -50%);
-    filter: blur(65px);
+    filter: blur(70px);
     z-index: 99;
 }
 .nav {
