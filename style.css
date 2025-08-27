@@ -13,6 +13,17 @@ html, body {
     height: 100%;
     width: 100%;
     scroll-behavior: smooth;
+    position: relative;
+}
+.cursor {
+    width: 20px;
+    height: 20px;
+    background-color: #95c11e;
+    position: fixed;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 99;
+    transform: translate(-50%, -50%);
 }
 .nav {
     position: fixed;
