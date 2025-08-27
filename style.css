@@ -5,6 +5,10 @@
     font-family: "Montserrat", sans-serif;
     color: #fff;
 }
+::selection {
+    background: #95c11e;
+    color: #000;
+}
 html, body {
     height: 100%;
     width: 100%;
@@ -33,6 +37,7 @@ video {
     width: 100%;
     object-fit: cover;
     position: fixed;
+    z-index: -1;
 }
 .main-div {
     position: relative;
@@ -54,6 +59,17 @@ video {
     letter-spacing: .02em;
     text-transform: uppercase;
     position: relative;
+    margin-top: 2rem;
+}
+.page1 h1::before {
+    content: "EAT. DRINK. PLAY.";
+    position: absolute;
+    top: -.3rem;
+    left: -.3rem;
+    width: 100%;
+    color: #000;
+    text-shadow: -1px -1px 0 #95c11e, 1px -1px 0 #95c11e, -1px 1px 0 #95c11e, 1px 1px 0 #95c11e;
+    z-index: -1;
 }
 .page1 h2 {
     font-size: 25px;
