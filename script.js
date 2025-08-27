@@ -1,10 +1,17 @@
 function pageCursor() {
   var div = document.querySelector("body");
-var cursor = document.querySelector(".cursor"); 
+ var cursor = document.querySelector(".cursor"); 
+ var cursorBr = document.querySelector(".cursor-br");
 
 div.addEventListener("mousemove", function(para){
-  const rect = cursor.getBoundingClientRect();
   gsap.to(".cursor", {
+    x: para.x,
+    y: para.y,
+    duration: 1,
+    ease: "back.out",
+  })
+
+  gsap.to(".cursor-br", {
     x: para.x,
     y: para.y,
     duration: 1,
