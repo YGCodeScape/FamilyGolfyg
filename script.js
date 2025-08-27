@@ -40,7 +40,7 @@ gsap.to(".main-div", {
     scrollTrigger: {
         trigger: ".main-div",
         scroller: "body",
-        start: "top -25%",
+        start: "top -50%",
         end: "top -70%",
         scrub: true,
     }
