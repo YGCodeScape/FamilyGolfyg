@@ -234,11 +234,6 @@ video {
     height: auto;
     margin-bottom: 6rem;
 }
-.page4 {
-    width: 100%;
-    height: 100vh;
-    border: 2px solid red;
-}
 .cards-container {
     width: 100%;
     height: 100vh;
@@ -356,7 +351,15 @@ video {
     text-transform: uppercase;
 }
 
+.page4 {
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+}
 
+.card5 {
+    
+}
 
 @keyframes scroll {
     from {
