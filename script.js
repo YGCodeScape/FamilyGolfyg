@@ -18,14 +18,12 @@ document.addEventListener("mousemove", function(para){
 var cursor = document.querySelector(".cursor");
 var curScale = document.querySelectorAll(".nav h4, .buttons .nav-btn");
 
-
 curScale.forEach(function(para){
   para.addEventListener("mouseenter", function(){
     cursor.style.width = "80px"
     cursor.style.height = "80px"
     cursor.style.border = "1px solid #fff"
     cursor.style.backgroundColor = "transparent"
-
     
   })
   para.addEventListener("mouseleave", function(){
@@ -58,8 +56,22 @@ gsap.to(".main-div", {
     scrollTrigger: {
         trigger: ".main-div",
         scroller: "body",
-        start: "top -50%",
+        start: "top -25%",
         end: "top -70%",
+        scrub: true,
+    }
+})
+
+gsap.from(".about-img, .about-in ", {
+    y: 100,
+    opacity: 0,
+    duration: 3,
+    stagger: 1,
+    scrollTrigger: {
+        trigger: ".about-us",
+        scroller: "body",
+        start: "top 90%",
+        end: "bottom bottom",
         scrub: true,
     }
 })
