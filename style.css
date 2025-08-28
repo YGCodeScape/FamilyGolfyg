@@ -22,7 +22,7 @@ html, body {
     position: fixed;
     border-radius: 50%;
     pointer-events: none;
-    z-index: 99;
+    z-index: 9999;
     transform: translate(-50%, -50%);
 }
 .cursor-br{
@@ -320,6 +320,24 @@ video {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.sign-up-div img {
+    width: 12%;
+    height: 100%;
+    object-fit: cover;
+}
+.sign-text {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    z-index: 11;
+}
+.sign-up-div h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 @keyframes scroll {
