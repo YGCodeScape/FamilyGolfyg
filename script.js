@@ -1,5 +1,4 @@
 function pageCursor() {
-
 document.addEventListener("mousemove", function(para){
   gsap.to(".cursor", {
     x: para.x,
@@ -15,6 +14,28 @@ document.addEventListener("mousemove", function(para){
     ease: "back.out",
   })
 })
+
+var cursor = document.querySelector(".cursor");
+var curScale = document.querySelectorAll(".nav h4, .buttons .nav-btn");
+
+
+curScale.forEach(function(para){
+  para.addEventListener("mouseenter", function(){
+    cursor.style.width = "80px"
+    cursor.style.height = "80px"
+    cursor.style.border = "1px solid #fff"
+    cursor.style.backgroundColor = "transparent"
+
+    
+  })
+  para.addEventListener("mouseleave", function(){
+    cursor.style.width = "20px"
+    cursor.style.height = "20px"
+    cursor.style.border = "none"
+    cursor.style.backgroundColor = "#95c11e"
+  })
+})
+
 }
 pageCursor();
 
