@@ -234,7 +234,7 @@ video {
     z-index: 10;
 }
 .card {
-    width: 25%;
+    width: 27%;
     height: 100%;
     background: #95c11e;
     border-radius: 15px;
@@ -242,6 +242,8 @@ video {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    overflow: hidden;
+    transition: all ease 0.6s;
 }
 .overlay {
     width: 100%;
@@ -249,7 +251,44 @@ video {
     position: absolute;
     top: 0;
     left: 0;
-    background: red;
+    background: linear-gradient(20deg, #B3E824, #87ad1d);
+    color: #000;
+    opacity: 0;
+    transition: all ease 0.2s;
+}
+.overlay i {
+    font-size: 3rem;
+    border: 2px solid #000;
+    border-radius: 50%;
+    padding: 1.2rem;
+    position: absolute;
+    top: -1.2rem;
+    right: -1rem;
+    color: #000;
+    background-color: transparent;
+    cursor: pointer;
+}
+.overlay i:hover {
+    background-color: #fff;
+    color: #95c11e;
+}
+.overlay h4 {
+    width: 80%;
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 7rem;
+    margin-left: 2rem;
+    letter-spacing: 0.1rem;
+}
+.overlay p {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    padding: 0 1rem;
+    line-height: 2;
 }
 .card1 {
     background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-toptracer.jpg?strip=all&lossy=1&sharp=1&ssl=1);
@@ -266,7 +305,22 @@ video {
     margin-left: 1.4rem;
     margin-top: 34rem;
 }
-
+.card:hover .overlay {
+    opacity: 1;
+}
+.card:hover{ 
+    transform: rotate3d(1,1,0, 13deg);
+}
+.sign-up-div {
+    margin-top: 8rem;
+    width: 100%;
+    height: 45vh;
+    background: linear-gradient(18deg, #B3E824, #95c11e, #039c3d);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 @keyframes scroll {
     from {

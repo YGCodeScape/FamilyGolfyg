@@ -1,0 +1,215 @@
+  <div class="page3">
+            <div class="cards-container">
+                <div class="card card1">
+                    <h3>toptracer range</h3>
+                    <div class="overlay">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <h4>toptracer range</h4>
+                        <p>Our range delivers the same ball-tracking technology that traces the shots of the game's
+                            best players on TV.</p>
+                        <p>Toptracer Range technology offers a fun, engaging, tech-driven experience
+                            that appeals to seasoned players, range rivals, friends, family members,
+                            and even first-time golfers.</p>
+                    </div>
+                </div>
+                <div class="card card2">
+                    <h3>adventure golf</h3>
+                    <div class="overlay">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <h4>adventure golf</h4>
+                        <p>Adventure awaits you!</p>
+                        <p>Become a Jurassic explorer as you delve into the land of the dinosaurs! 
+                            Putt your way through prehistoric landscape, cascading waterfalls and
+                            meet some dinosaur friends along the way.</p>
+                    </div>
+                </div>
+                <div class="card card3">
+                    <h3>golf lessons</h3>
+                    <div class="overlay">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <h4>golf lessons</h4>
+                        <p>Passionate about player development, whether you are new to the game or
+                            an aspiring pro, we offer both group and individual lessons tailored to
+                            you with the sole focus of helping you reach your goals.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sign-up-div">
+                <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg" alt="">
+                <div class="sign-text">
+                    <h3>Sign up for Sidcup News and Special Offers Straight to Your Inbox</h3>
+                </div>
+                <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    .about-us {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  padding: 0 50px;
+  align-items: center;
+  position: relative;
+  z-index: 999;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+.about-img {
+    width: 10vw;
+    height: 25vh;
+    border-radius: 0.8rem;
+    position: relative;
+}
+.a-i-2 {
+    height: 33vh;
+}
+.about-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.8rem;
+    object-fit: cover;
+}
+
+.about-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.315);
+}
+.about-in {
+    width: 49vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+}
+.about-in h3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.about-in p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2;
+    text-align: center;
+    margin-top: 2rem;
+}
+.about-in span {
+    margin-top: 1.5rem;
+    font-size : 18px;
+    text-align: center;
+}
+.cards-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.4rem;
+    position: relative;
+    z-index: 10;
+}
+.card {
+
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(20deg, #B3E824, #87ad1d);
+    color: #000;
+    opacity: 0;
+    transition: all ease 0.2s;
+}
+.overlay i {
+    font-size: 3rem;
+    border: 2px solid #000;
+    border-radius: 50%;
+    padding: 1.2rem;
+    position: absolute;
+    top: -1.2rem;
+    right: -1rem;
+    color: #000;
+    background-color: transparent;
+    cursor: pointer;
+}
+.overlay i:hover {
+    background-color: #fff;
+    color: #95c11e;
+}
+.overlay h4 {
+    width: 80%;
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 7rem;
+    margin-left: 2rem;
+    letter-spacing: 0.1rem;
+}
+.overlay p {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    padding: 0 1rem;
+    line-height: 2;
+}
+.card1 {
+    background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-toptracer.jpg?strip=all&lossy=1&sharp=1&ssl=1);
+}
+.card2 {
+    background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/hero-4.jpg?strip=all&lossy=1&sharp=1&ssl=1);
+}
+.card3 {
+    background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-lessons.jpg?strip=all&lossy=1&sharp=1&ssl=1);
+}
+.card h3 {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    margin-left: 1.4rem;
+    margin-top: 34rem;
+}
+.card:hover .overlay {
+    opacity: 1;
+}
+.card:hover{ 
+    transform: rotate3d(1,1,0, 13deg);
+}
+.sign-up-div {
+    margin-top: 8rem;
+    width: 100%;
+    height: 45vh;
+    background: linear-gradient(18deg, #B3E824, #95c11e, #039c3d);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sign-up-div img {
+    width: 12%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sign-text {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.sign-up-div h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+}

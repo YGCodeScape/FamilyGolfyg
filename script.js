@@ -1,9 +1,6 @@
 function pageCursor() {
-  var div = document.querySelector("body");
- var cursor = document.querySelector(".cursor"); 
- var cursorBr = document.querySelector(".cursor-br");
 
-div.addEventListener("mousemove", function(para){
+document.addEventListener("mousemove", function(para){
   gsap.to(".cursor", {
     x: para.x,
     y: para.y,
