@@ -464,6 +464,38 @@ video {
     width: 100%;
     height: 60vh;
     background: linear-gradient(18deg, #B3E824, #95c11e, #039c3d);
+    display: flex;
+    flex-direction: column;
+}
+.footer-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.f-row1 {
+    border: 2px solid red;
+    width: 100%;
+    height: 70%;
+}
+.f-col1 img {
+    width: 100px;
+    height: 100px;
+}
+.footer-col {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.f-col4 p{
+    width: 40%;
+}
+.f-row2 {
+    width: 100%;
+    height: 30%;
+    border: 2px solid rgb(0, 119, 255);
 }
 
 /* animation for text scroller page2 */
