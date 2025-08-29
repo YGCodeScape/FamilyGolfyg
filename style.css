@@ -408,7 +408,7 @@ video {
     color: #000;
     -webkit-text-stroke: 1.2px #fff;
     position: absolute;
-    top: 2%;
+    top: 1%;
 }
 .page6-2 {
     width: 85%;
@@ -448,7 +448,9 @@ video {
     transition: all ease 0.5s;
     z-index: 2;
     scale: 1.1;
+    position: relative;
 }
+
 .p6-img-d:hover .p6-img {
     opacity: 1;
     scale: 1;
@@ -456,8 +458,6 @@ video {
 .p6-img-d:hover .p6-h3 {
     color: #fff;
 }
-
-
 
 /* top 15 left 15 ---  */
 @keyframes scroll {

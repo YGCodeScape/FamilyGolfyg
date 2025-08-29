@@ -116,3 +116,16 @@ gsap.from(".quote-right", {
     scrub: 2,
   }
 })
+
+gsap.from(".page6 h2", {
+  y: 40,
+  duration: 0.1,
+  scrollTrigger: {
+    trigger: ".page6",
+    scroller: "body",
+    start : "top 75%",
+    end: "top 70%",
+    // markers: true,
+    scrub: 5
+  }
+})
