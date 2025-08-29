@@ -393,7 +393,7 @@ video {
 
 .page6 {
     width: 100%;
-    height: 60vh;
+    height: 45vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -409,7 +409,7 @@ video {
     color: #000;
     -webkit-text-stroke: 1.2px #fff;
     position: absolute;
-    top: 1%;
+    top: -6%;
 }
 .page6-2 {
     width: 85%;
@@ -423,7 +423,7 @@ video {
 }
 .p6-img-d {
     width: 32%;
-    height: 70%;
+    height: 80%;
     background-color: #B3E824;
     border-radius: 15px;
     transition: all ease 0.3s;

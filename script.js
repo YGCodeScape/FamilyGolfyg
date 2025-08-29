@@ -102,14 +102,14 @@ gsap.from(".quote-right", {
 })
 
 gsap.from(".page6 h2", {
-  y: 40,
-  duration: 0.1,
+  y: 50,
+  duration: .3,
   scrollTrigger: {
     trigger: ".page6",
     scroller: "body",
-    start : "top 75%",
-    end: "top 70%",
+    start : "top 70%",
+    end: "top 60%",
     // markers: true,
-    scrub: 5
+    scrub: 4
   }
 })
