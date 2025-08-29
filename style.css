@@ -483,14 +483,50 @@ video {
     height: 100px;
 }
 .footer-col {
-    width: 100%;
+    width: auto;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+.f-col1 {
+    gap: 25px;
+}
+.f-col2 h3,
+ .f-col3 h3{
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.social i {
+    font-size: 2rem;
+    color: #000;
+}
 .f-col4 p{
     width: 40%;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.f-col4 span {
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.f-col4 strong {
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.col4 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.1;
+    font-weight: 800;
 }
 .f-row2 {
     width: 100%;
