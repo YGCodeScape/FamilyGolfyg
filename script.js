@@ -78,22 +78,21 @@ gsap.from(".about-img, .about-in ", {
 
 // gsap for colon img
 gsap.from(".quote-left", {
-  y: -70,
-  x: -70,
+  y: -50,
+  x: -50,
   scrollTrigger: {
-    trigger: "#colon1",
+    trigger: ".quote-left",
     scroller: "body",
-    markers:true,
     start: "top 55%",
     end: "top 45%",
-    scrub: true,
+    scrub: 4,
   }
 })
 gsap.from(".quote-right", {
-  y: 70,
-  x: 70,
+  y: 50,
+  x: 50,
   scrollTrigger: {
-    trigger: "#colon1",
+    trigger: ".quote-left",
     scroller: "body",
     // markers:true,
     start: "top 55%",

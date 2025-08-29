@@ -380,14 +380,15 @@ video {
     width: 60px;
     height: 60px;
     position: absolute;
+    z-index: 99;
 }
 .quote-left {
-  left: 12%;
-  top: 16%;
+  left: 15%;
+  top: 15%;
 }
 .quote-right {
-  bottom: 20%;
-  right: 12%;
+  bottom: 25%;
+  right: 15%;
 }
 
 
