@@ -17,7 +17,6 @@ document.addEventListener("mousemove", function(para){
 
 var cursor = document.querySelector(".cursor");
 var curScaleN = document.querySelectorAll(".nav h4, .buttons .nav-btn, .cards-container .card, .page6 .p6-img-d");
-// var curScaleP6 = document.querySelectorAll(".page6 .p6-img-d");
 
 curScaleN.forEach(function(para){
   para.addEventListener("mouseenter", function(){
@@ -34,21 +33,6 @@ curScaleN.forEach(function(para){
     cursor.style.backgroundColor = "#95c11e"
   })
 })
-
-// curScaleP6.forEach(function(para){
-//   para.addEventListener("mouseenter", function() {
-//     cursor.style.width = "80px"
-//     cursor.style.height = "80px"
-//     cursor.style.border = "1px solid #fff"
-//     cursor.style.backgroundColor = "transparent"
-//   })
-//     para.addEventListener("mouseleave", function(){
-//     cursor.style.width = "20px"
-//     cursor.style.height = "20px"
-//     cursor.style.border = "none"
-//     cursor.style.backgroundColor = "#95c11e"
-//   })
-// })
 
 }
 pageCursor();

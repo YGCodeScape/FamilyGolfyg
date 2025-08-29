@@ -352,7 +352,7 @@ video {
     text-transform: uppercase;
 }
 
-.page4, .page7 {
+.page4 {
     width: 100%;
     height: 100vh;
     border: 2px solid red;
@@ -452,7 +452,6 @@ video {
     scale: 1.1;
     position: relative;
 }
-
 .p6-img-d:hover .p6-img {
     opacity: 1;
     scale: 1;
@@ -461,7 +460,13 @@ video {
     color: #fff;
 }
 
-/* top 15 left 15 ---  */
+.footer-section {
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(18deg, #B3E824, #95c11e, #039c3d);
+}
+
+/* animation for text scroller page2 */
 @keyframes scroll {
     from {
         transform: translateX(0);
