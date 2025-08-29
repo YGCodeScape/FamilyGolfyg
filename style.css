@@ -351,7 +351,7 @@ video {
     text-transform: uppercase;
 }
 
-.page4, .page6 {
+.page4, .page7 {
     width: 100%;
     height: 100vh;
     border: 2px solid red;
@@ -360,7 +360,6 @@ video {
 .page5 {
     width: 100%;
     height: 80vh;
-    border: 2px solid green;
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -390,6 +389,69 @@ video {
   bottom: 25%;
   right: 15%;
 }
+
+.page6 {
+    width: 100%;
+    height: 60vh;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.page6 h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 4.3rem;
+    font-family: "Outfit", sans-serif;
+    color: #000;
+    -webkit-text-stroke: 1.2px #fff;
+    position: absolute;
+    top: 2%;
+}
+.page6-2 {
+    width: 85%;
+    height: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    z-index: 9;
+
+}
+.p6-img-d {
+    width: 32%;
+    height: 70%;
+    background-color: #B3E824;
+    border-radius: 15px;
+    transition: all ease 0.3s;
+    position: relative;
+}
+.p6-img-d h3 {
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #000;
+    text-transform: uppercase;
+    top: 37%;
+    left: 10%;
+}
+.p6-img-d img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    opacity: 0;
+    transition: all ease 0.3s;
+}
+.p6-img-d:hover .p6-img {
+    opacity: 1;
+}
+.p6-img-d:hover .p6-h3 {
+    color: #fff;
+}
+
 
 
 /* top 15 left 15 ---  */
