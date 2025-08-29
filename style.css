@@ -505,11 +505,12 @@ video {
     color: #000;
 }
 .f-col4 p{
-    width: 40%;
+    width: 45%;
     color: #000;
     font-size: 1.1rem;
     font-weight: 600;
     text-transform: uppercase;
+    line-height: 1.5;
 }
 .f-col4 span {
     color: #000;
@@ -520,13 +521,15 @@ video {
 .f-col4 strong {
     color: #000;
     font-size: 1.1rem;
-    font-weight: 600;
+    font-weight: 700;
 }
-.col4 a {
+.f-col4 a {
     text-decoration: none;
     color: #000;
-    font-size: 1.1;
+    font-size: 1.1rem;
     font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 4px;
 }
 .f-row2 {
     width: 100%;
