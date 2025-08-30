@@ -460,10 +460,25 @@ video {
     color: #fff;
 }
 
+.footer {
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.fdot-img {
+  position: absolute;
+  left: 0;
+  width: 30%;
+  height: 60%;
+  z-index: 0;
+}
+
 .footer-row1 {
-  height: 40vh;
+  height: 70%;
   width: 100%;
-  background: linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%);
   position: relative;
   display: flex;
   align-items: center;
@@ -471,14 +486,24 @@ video {
   gap: 6.5vw;
   padding: 0 100px;
 }
-.footer-row1 > img {
-  position: absolute;
-  left: 0;
-  height: 100%;
-  z-index: 0;
+
+#f1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 #f1 img {
   height: 100px;
+}
+.social {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social i {
+    font-size: 2rem;
+    color: #000;
 }
 #f1,
 #f2,
