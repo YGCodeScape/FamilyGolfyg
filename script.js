@@ -17,6 +17,7 @@ document.addEventListener("mousemove", function(para){
 
 var cursor = document.querySelector(".cursor");
 var curScaleN = document.querySelectorAll(".nav h4, .buttons .nav-btn, .cards-container .card, .page6 .p6-img-d");
+var curFooter = document.querySelectorAll("#f1 img, .social i, #f2 h3, #f3 h3, #f4 span, .f-ul .f-li");
 
 curScaleN.forEach(function(para){
   para.addEventListener("mouseenter", function(){
@@ -25,6 +26,22 @@ curScaleN.forEach(function(para){
     cursor.style.border = "1px solid #fff"
     cursor.style.backgroundColor = "transparent"
     
+  })
+  para.addEventListener("mouseleave", function(){
+    cursor.style.width = "20px"
+    cursor.style.height = "20px"
+    cursor.style.border = "none"
+    cursor.style.backgroundColor = "#95c11e"
+  })
+})
+
+curFooter.forEach(function(para){
+  para.addEventListener("mouseenter", function(){
+    cursor.style.width = "80px"
+    cursor.style.height = "80px"
+    cursor.style.border = "1px solid #fff"
+    cursor.style.backgroundColor = "transparent"
+
   })
   para.addEventListener("mouseleave", function(){
     cursor.style.width = "20px"
