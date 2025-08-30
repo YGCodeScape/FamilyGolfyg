@@ -496,6 +496,7 @@ video {
 }
 #f1 img {
   height: 95px;
+  transition: all ease 0.2s;
 }
 .social {
     width: fit-content;
@@ -506,7 +507,9 @@ video {
 .social i {
     font-size: 2rem;
     color: #000;
+    transition: all ease 0.3s;
 }
+
 #f1,
 #f2,
 #f3,
@@ -522,6 +525,7 @@ video {
   font-weight: 900;
   margin-bottom: 8px;
   cursor: pointer;
+  transition: all ease 0.3s;
 }
 
 #f4 h4 {
@@ -537,6 +541,7 @@ video {
     font-weight: 700;
     color: #000;
     cursor: pointer;
+    transition: all ease 0.3s;
 }
 .footer-row2 {
     width: 100%;
@@ -560,6 +565,7 @@ video {
     padding-left: 0.4rem;
     border-right: 2px solid #000;
     cursor: pointer;
+    transition: all ease 0.3s;
 }
 .f-sl-li {
     border: none;
@@ -569,6 +575,24 @@ video {
     border: none;
 }
 
+#f1 img:hover {
+    scale: 0.9;
+}
+.social i:hover {
+    color: #fff;
+}
+#f2 h3:hover {
+    color: #fff;
+}
+#f3 h3:hover {
+    color: #fff;
+}
+#f4 span:hover {
+    color: #fff;
+}
+.f-ul .f-li:hover {
+    color: #fff;
+}
 
 /* animation for text scroller page2 */
 @keyframes scroll {
