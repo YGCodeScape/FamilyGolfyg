@@ -5,9 +5,18 @@
     font-family: "Montserrat", sans-serif;
     color: #fff;
 }
-::selection {
+*::selection {
     background: #95c11e;
     color: #000;
+}
+body::-webkit-scrollbar {
+  display: block;
+  width: 8px;
+  background: #000;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #95c11e;
+  border-radius: 50px;
 }
 html, body {
     height: 100%;
@@ -589,7 +598,7 @@ video {
 }
 #f4 span:hover {
     color: #fff;
-}
+} 
 .f-ul .f-li:hover {
     color: #fff;
 }
