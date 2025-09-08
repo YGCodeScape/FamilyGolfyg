@@ -363,9 +363,84 @@ video {
 
 .page4 {
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     border: 2px solid red;
 }
+.food-s-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food-slider, 
+.food-slider {
+    width: 50%;
+    height: 100%;
+    border: 2px solid rgb(16, 236, 134);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.f-s-right {
+
+}
+.slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-images {
+  position: relative;
+  width: 45vw;
+  height: 63vh;
+ border: 2px solid rgb(128, 0, 100);
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.slide.active {
+  left: 0;
+  opacity: 1;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: gray;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.dot.active {
+  background: limegreen; /* highlight active dot */
+}
+
+
 
 .page5 {
     width: 100%;
@@ -587,19 +662,12 @@ video {
 #f1 img:hover {
     scale: 0.9;
 }
-.social i:hover {
-    color: #fff;
-}
-#f2 h3:hover {
-    color: #fff;
-}
-#f3 h3:hover {
-    color: #fff;
-}
-#f4 span:hover {
-    color: #fff;
-} 
-.f-ul .f-li:hover {
+.social i:hover,
+#f2 h3:hover,
+#f3 h3:hover,
+#f4 span:hover,
+.f-ul .f-li:hover
+ {
     color: #fff;
 }
 
