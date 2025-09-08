@@ -130,3 +130,55 @@ gsap.from(".page6 h2", {
     scrub: 4
   }
 })
+
+
+const slides = document.querySelectorAll(".slide");
+const dots = document.querySelectorAll(".dot");
+let current = 0;
+let total = slides.length;
+
+// initialize
+gsap.set(slides, {
+      opacity: 0,
+      position: "absolute", 
+      top: 0,
+      left: 0,
+      width: "100%"
+   });
+gsap.set(slides[0], {
+   opacity: 1
+   }); // first visible
+
+function showSlide(index) {
+  // fade out current
+  gsap.to(slides[current], {
+       opacity: 0,
+       duration: 0.8,
+       ease: "power2.out" 
+    });
+
+  dots[current].classList.remove("active");
+
+  // fade in next
+  gsap.to(slides[index], {
+      opacity: 1, 
+      duration: 0.8,
+      ease: "power2.out"
+     });
+  dots[index].classList.add("active");
+
+  current = index;
+}
+
+function nextSlide() {
+  let next = (current + 1) % total;
+  showSlide(next);
+}
+
+// autoplay
+setInterval(nextSlide, 3000);
+
+// dots click
+dots.forEach((dot, i) => {
+  dot.addEventListener("click", () => showSlide(i));
+});
