@@ -372,6 +372,7 @@ video {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 3rem;
 }
 .food-slider, 
 .food-slider {
@@ -383,9 +384,16 @@ video {
     justify-content: center;
 }
 
-.f-s-right {
-
+.f-s-right h2{
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 3rem;
 }
+.f-s-right p {
+    width: 50%;
+}
+
 .slider {
   position: relative;
   width: 100%;
@@ -395,15 +403,15 @@ video {
   border: 2px solid green;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
 .slider-images {
   position: relative;
-  width: 45vw;
+  width: 42vw;
   height: 63vh;
- border: 2px solid rgb(128, 0, 100);
+  border: 2px solid rgb(128, 0, 100);
+  border-radius: 1rem;
 }
 
 .slide {
@@ -413,6 +421,7 @@ video {
   width: 100%;
   object-fit: cover;
   height: 100%;
+   border-radius: 1rem;
   opacity: 0;
   transition: opacity 0.5s ease;
 }
