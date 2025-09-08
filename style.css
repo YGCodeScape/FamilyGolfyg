@@ -424,6 +424,7 @@ video {
   width: 42vw;
   height: 63vh;
   border-radius: 1rem;
+  overflow: hidden;
 }
 .slider-images::after {
     content: "";
@@ -433,8 +434,8 @@ video {
     bottom: 0;
     left: 0;
     background-color: #d3ff5959;
-    /* filter: blur(70px); */
-    overflow: hidden;
+    filter: blur(70px);
+    border-radius: 2rem;
 }
 
 .slide {
