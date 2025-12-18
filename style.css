@@ -23,6 +23,7 @@ html, body {
     width: 100%;
     scroll-behavior: smooth;
     position: relative;
+    overflow-x: hidden;
 }
 .cursor {
     width: 20px;
@@ -726,5 +727,65 @@ video {
     }
     to {
         transform: translateX(-100%);
+    }
+}
+
+
+@media screen and (max-width: 460px) {
+    nav h4 {
+        display: none;
+    }
+    video {
+        display: none;
+    }
+    .nav {
+        padding: 0 0 0 20px;
+        gap: 0;
+    }
+    .nav-btn {
+        width: 130px;
+        justify-content: space-between;
+    }
+    .page1 h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .page1 h2 {
+        font-size: 18px;
+    }
+    .page1 p {
+        width: 100%;
+    }
+    .about-us {
+        flex-direction: column;
+    }
+    .text-scroller h4 {
+        font-size: 4rem;
+    }
+    .about-us {
+        height: auto;
+        padding: 0;
+        gap: 30px;
+    }
+    .about-img {
+        width: 90vw;
+    }
+    .about-in {
+        width: 100%;
+    }
+    .a-i-2 {
+        height: 25vh;
+    }
+    .about-in h3 {
+        font-size: 2rem;
+    }
+    .about-in p, 
+    .about-in span {
+        font-size: 14px;
+        width: 99%;
+    }
+    .cards-container {
+        flex-direction: column;
+        height: 50vh;
     }
 }
