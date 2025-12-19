@@ -744,6 +744,12 @@ video {
         font-size: 10px;
         justify-content: space-between;
     }
+    main {
+        height: 100%;
+    }
+    .main-div {
+        padding-bottom: 20px;
+    }
     .page1 h1 {
         font-size: 50px;
         text-align: center;
@@ -900,6 +906,12 @@ video {
         display: none;
     }
     .f-ul {
-        flex-wrap: wrap;
+       display: none;
+    }
+    .page6 h2 {
+        font-size: 1.5rem;
+    }
+    .p6-img-d h3 {
+        left: 15%;
     }
 }

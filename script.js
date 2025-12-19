@@ -76,6 +76,7 @@ gsap.to(".main-div", {
         start: "top -25%",
         end: "top -70%",
         scrub: true,
+        markers: true
     }
 })
 
