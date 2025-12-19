@@ -979,7 +979,7 @@ video {
     }
     .cards-container {
         flex-direction: column;
-        height: 110vh;
+        height: 120vh;
     }
     .card {
         width: 90%;
@@ -998,7 +998,7 @@ video {
         padding: 0 0.9rem;
     }
     .sign-up-div {
-        height: 18vh;
+        height: 38vh;
         margin-top: 2rem;
     }
     .sign-up-div h3 {
@@ -1016,7 +1016,7 @@ video {
     }
     .slider-images{
         width: 100%;
-        height: 30vh;
+        height: 60vh;
     }
     .slider-dots {
         height: 3vh;
@@ -1026,13 +1026,13 @@ video {
         margin: 0;
     }
     .f-s-right p {
-        width: 100%;
+        width: 90%;
         gap: 1.2rem;
         margin: 1rem 0;
     }
     .f-s-right p span {
-        font-size: 1rem;
-        line-height: 3vh;
+        font-size: 1.3rem;
+        line-height: 5vh;
     }
     .page5 {
         height: 50vh;
@@ -1056,7 +1056,7 @@ video {
     }
     .page6-2 {
         width: 100%;
-        height: 60vh;
+        height: 100vh;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -1095,7 +1095,7 @@ video {
        display: none;
     }
     .page6 h2 {
-        font-size: 1.5rem;
+        font-size: 2.6rem;
     }
     .p6-img-d h3 {
         left: 15%;
